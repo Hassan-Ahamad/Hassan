@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        p{
+            color: brown;
+            text-align: center;
+            margin: 0%;
+        }
+        .table{
+            border: 1px solid black;
+        }
+        .row{
+            border: 1px solid black;
+        }
+        .head{
+            padding: 5px;
+            border: 1px solid black;
+            }
+        .data{
+            border: 1px solid black;
+            padding: 5px;
+        }
+        /* #id{
+            margin: 5px;
+        } */
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <form>
+
+        <table class="table">
+            <thead>
+            <tr class="row">
+                <th colspan="2" class="head">Registration Form</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="row">
+                <th class="head"><label for="name">Student name</label></th>
+                <td class="data">
+                    <input id="name" type="text">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">Father's Name</th>
+                <td class="data">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">Mother's Name</th>
+                <td class="data">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">Date of Birth</th>
+                <td class="data">
+                    <input type="date">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">Gender</th>
+                <td class="data">
+                    <label for="male">male:
+                        <input type="radio" id="male" name="ratio" class="male">
+                    </label>
+                    <label for="female">female:
+                        <input type="radio" id="female" name="ratio" class="female">
+                    </label>
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">Email ID</th>
+                <td class="data">
+                    <input type="email">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">Mobile No.</th>
+                <td class="data">
+                    <input type="number">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">Address</th>
+                <td class="data">
+                    <textarea name="address" id="id" cols="21" rows="3"></textarea>
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">State</th>
+                <td class="data">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head">City</th>
+                <td class="data">
+                    <input type="text">
+                </td>
+            </tr>
+            <tr class="row">
+                <th class="head"></th>
+                <td class="data">
+                    <input type="submit">
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+    <b>
+        <p href="www.itcomputerguruji.com">www.itcomputerguruji.com</p>
+    </b>
+</body>
+</html>
