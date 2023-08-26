@@ -1,0 +1,356 @@
+.navbar {
+    height: 75px;
+}
+
+.logo {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 100px;
+
+}
+
+.under {
+    float: right;
+    margin-right: 40px;
+}
+
+.list {
+    display: inline-block;
+}
+
+a {
+    margin: 20px;
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+    font-size: 18px;
+    transition: all 0.2s linear;
+    font-family: sans-serif;
+}
+
+a:hover {
+    color: rgb(151, 137, 137);
+}
+
+.btn {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    border: 2px solid orangered;
+}
+
+.btn:hover {
+    background-color: orange;
+    color: black;
+    border: 2px solid black;
+}
+
+.heading {
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 80px;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.061);
+    height: 535px;
+}
+
+.SHO {
+    background-color: orangered;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: all 0.3s linear;
+    border: 2px solid orangered;
+}
+
+.SHO:hover {
+    background-color: orange;
+    color: white;
+    border: 2px solid black;
+}
+
+.CON:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.CON {
+    margin-left: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+}
+
+.heading2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.para {
+    margin-left: 40px;
+}
+
+.images {
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+
+}
+
+.img {
+    z-index: 0;
+    float: right;
+    margin-top: -300px;
+    height: 350px;
+    width: 500px;
+    margin-right: 100px;
+}
+
+.ico {
+    height: 40px;
+    margin: -10px 0px;
+    margin-left: 15px;
+}
+
+p {
+    color: black;
+}
+
+.cards {
+    height: 280px;
+    padding: 20px;
+    width: 290px;
+    border: 0.1px solid gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.cards2 {
+    height: 280px;
+    width: 290px;
+    border: 0.1px solid gray;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.cards3 {
+    height: 280px;
+    width: 290px;
+    border: 0.1px solid gray;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.card {
+    height: 50px;
+    margin-top: 25px;
+}
+
+.mother {
+    display: grid;
+    grid-template-columns: 390px 390px 390px;
+    margin-left: 130px;
+}
+
+.heading3 {
+    color: orangered;
+    font-family: sans-serif;
+}
+
+.read {
+    background-color: black;
+    padding: 10px;
+    margin: 30px 620px;
+    color: white;
+    transition: all 0.2s linear;
+    font-family: sans-serif;
+}
+
+.read:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    cursor: pointer;
+}
+
+.heading4 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.heading5 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+}
+
+.para2 {
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.Buy {
+    background-color: black;
+    padding: 10px 25px;
+    color: white;
+    cursor: pointer;
+    margin-left: 30px;
+    transition: all 0.2s linear;
+}
+
+.Buy:hover {
+    background-color: white;
+    color: black;
+}
+
+.orange {
+    float: right;
+    z-index: 0;
+    margin-right: 200px;
+    height: 150px;
+    margin-top: -150px;
+}
+
+.grapes {
+    float: right;
+    z-index: 0;
+    margin-right: 280px;
+    height: 300px;
+    margin-top: -200px;
+}
+
+.Now {
+    background-color: black;
+    padding: 10px 20px;
+    margin-left: 25px;
+    color: white;
+}
+
+.gauva {
+    z-index: 0;
+    float: right;
+    height: 200px;
+    margin-top: -150px;
+    margin-right: 150px;
+}
+
+.heading6 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.client {
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.heading7 {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.just {
+    text-align: center;
+}
+
+.heading8 {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+}
+
+.out {
+    color: gray;
+    border: none;
+    width: 600px;
+    border-bottom: 1px solid black;
+    margin-left: 30px;
+}
+
+.send {
+    background-color: orangered;
+    padding: 8px 30px;
+    border: 1px solid orangered;
+    color: white;
+    font-family: sans-serif;
+    margin-left: 30px;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.send:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+.grid{
+    margin-left: 30px;
+    font-family: sans-serif;
+}
+.Fruits{
+    font-size: 20px;
+    font-weight: bold;
+}
+.mother_grid{
+        display: grid;
+        grid-template-columns: 300px  300px  300px;
+}
+.heading9{
+    text-align: right;
+    margin-top: -200px;
+    margin-right: 200px;
+}
+.face{
+    margin-right: 5px;
+    height: 35px;
+}
+.div{
+    float: right;
+    margin-right: 150px;
+}
+.heading10{
+    text-align: right;
+    font-family: sans-serif;
+    margin-right: 145px;
+    color: gray;
+}
+.output{
+    float: right;
+    margin-right: 145px;
+}
+.sub{
+    float: right;
+    margin-right: -106px;
+    margin-top:50px ;
+    background-color: orangered;
+    border:1px solid orangered;
+    padding:10px 20px;
+    transition: all 0.2s linear;
+    color: white;
+    cursor: pointer;
+}
+.sub:hover{
+    background-color: white;
+    color:black;
+    border: 1px solid black;
+}
+.bottom{
+    background-color: gray;
+    height: 50px;
+    text-align: center;
+    color: rgb(213, 202, 202);
+    line-height: 50px;
+}
